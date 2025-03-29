@@ -1,0 +1,440 @@
+tehais=[], ev={'type': 'start_game', 'names': ['0', '1', '2', '3'], 'id': 0}
+>> @ 0, 0, 0, E
+tehais=['E', '6p', '9m', '8m', 'C', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1m'}
+>> E, E
+tehais=['E', '9m', '8m', 'C', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m'], ev={'type': 'dahai', 'actor': 3, 'pai': 'S', 'tsumogiri': False}
+>> E, E
+tehais=['E', '9m', '8m', 'C', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> E, E
+tehais=['E', '9m', '8m', 'C', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m', 'N'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'N'}
+>> E, E
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m', 'N', 'C'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'C'}
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m', 'N'], ev={'type': 'dahai', 'actor': 3, 'pai': '1m', 'tsumogiri': True}
+>> E, E
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', '1m', 'S', '3s', '8m', '1m', 'N', 'N'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'N'}
+>> E, E
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', 'S', '3s', '8m', '1m', 'N', 'N', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> E, E
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', 'S', '3s', '8m', 'N', 'N', 'W', '3m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3m'}
+>> E, E
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', 'S', '3s', '8m', 'N', 'N', 'W', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+>> E, E
+tehais=['E', '9m', '8m', '2s', '7m', 'S', '6m', 'S', '3s', '8m', 'N', 'N', 'W', '6m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6m'}
+>> E, E
+tehais=['E', '9m', '8m', '7m', 'S', '6m', 'S', '3s', '8m', 'N', 'N', 'W', '6m', '9m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9m'}
+>> E, E
+tehais=['E', '9m', '8m', '7m', 'S', '6m', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6m'}
+>> E, E
+tehais=['E', '9m', '8m', '7m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', '5s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5s'}
+>> E, E
+tehais=['E', '9m', '8m', '7m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+tehais=['E', '9m', '8m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', '9p', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+tehais=['E', '9m', '8m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', '9p', 'E'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'E'}
+>> E, E
+tehais=['E', '9m', '8m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', 'E'], ev={'type': 'dahai', 'actor': 3, 'pai': '7m', 'tsumogiri': True}
+tehais=['E', '9m', '8m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', 'E', '2p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2p'}
+>> E, E
+tehais=['E', '9m', '8m', 'S', 'S', '8m', 'N', 'N', 'W', '6m', '9m', '6m', 'E', '2p'], ev={'type': 'end_kyoku'}
+>> @ 0, 1, -1, N
+tehais=['3p', 'F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '8m', '5p', '4m', 'W', 'N'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'N'}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '8m', '5p', '4m', 'W', 'N'], ev={'type': 'dahai', 'actor': 3, 'pai': '4p', 'tsumogiri': True}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '8m', '5p', '4m', 'W', 'N', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '8m', '5p', '4m', 'W', 'N'], ev={'type': 'dahai', 'actor': 3, 'pai': '5pr', 'tsumogiri': True}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '8m', '5p', '4m', 'W', 'N', '5p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5p'}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '8m', '5p', 'W', 'N', '5p', '7p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7p'}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'E', 'F', '5p', 'W', 'N', '5p', '7p', 'P'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'P'}
+>> E, N
+tehais=['F', '6p', '4p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', 'P', '5p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5p'}
+>> E, N
+tehais=['F', '6p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', 'P', '5p'], ev={'type': 'dahai', 'actor': 3, 'pai': 'F', 'tsumogiri': True}
+>> E, N
+tehais=['F', '6p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', 'P', '5p', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+>> E, N
+tehais=['F', '6p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p'], ev={'type': 'dahai', 'actor': 3, 'pai': '8p', 'tsumogiri': True}
+>> E, N
+tehais=['F', '6p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '4s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4s'}
+>> E, N
+tehais=['F', '6p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+tehais=['F', '6p', 'N', '8s', '6s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9s'}
+>> E, N
+tehais=['F', '6p', 'N', '8s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s'], ev={'type': 'dahai', 'actor': 3, 'pai': '7s', 'tsumogiri': True}
+>> E, N
+tehais=['F', '6p', 'N', '8s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '4s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4s'}
+tehais=['F', '6p', 'N', '8s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '5m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5m'}
+>> E, N
+tehais=['F', '6p', 'N', '8s', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '9s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9s'}
+>> E, N
+tehais=['F', '6p', 'N', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '9s', 'S'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'S'}
+>> E, N
+tehais=['F', '6p', 'N', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '9s', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+>> E, N
+tehais=['F', '6p', 'N', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '9s', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+tehais=['F', '6p', 'N', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '9s', '7s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7s'}
+>> E, N
+tehais=['F', '6p', 'N', 'F', '5p', 'W', 'N', '5p', '7p', '5p', '8p', '9s', '9s', '7s'], ev={'type': 'end_kyoku'}
+>> @ 0, 2, -2, W
+tehais=['4m', '5p', '7s', '6p', '5m', 'C', '4s', 'E', '2p', 'W', 'C', 'C', '9p', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> E, W
+tehais=['4m', '5p', '7s', '6p', '5m', 'C', '4s', 'E', 'W', 'C', 'C', '9p', '9p'], ev={'type': 'dahai', 'actor': 3, 'pai': '6m', 'tsumogiri': True}
+>> E, W
+tehais=['4m', '5p', '7s', '6p', '5m', 'C', '4s', 'E', 'W', 'C', 'C', '9p', '9p', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+>> E, W
+tehais=['4m', '5p', '7s', '6p', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '4p', '1m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1m'}
+>> E, W
+tehais=['4m', '5p', '7s', '6p', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '4p', '6p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6p'}
+>> E, W
+tehais=['4m', '5p', '7s', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '4p', '6p', '7p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7p'}
+>> E, W
+tehais=['4m', '5p', '7s', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '6p', '7p'], ev={'type': 'dahai', 'actor': 3, 'pai': '8p', 'tsumogiri': True}
+>> E, W
+tehais=['4m', '5p', '7s', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '6p', '7p', 'S'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'S'}
+>> E, W
+tehais=['4m', '5p', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '6p', '7p', 'S', '3p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3p'}
+>> E, W
+tehais=['4m', '5p', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '6p', '7p', 'S', '6p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6p'}
+tehais=['4m', '5p', '5m', 'C', 'E', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3m'}
+>> E, W
+tehais=['4m', '5p', '5m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+>> E, W
+tehais=['4m', '5m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '6s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6s'}
+>> E, W
+tehais=['4m', '5m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p'], ev={'type': 'dahai', 'actor': 3, 'pai': '2m', 'tsumogiri': True}
+>> E, W
+tehais=['4m', '5m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '8m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8m'}
+>> E, W
+tehais=['4m', '5m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '1m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1m'}
+tehais=['4m', '5m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5mr'}
+>> E, W
+tehais=['4m', 'C', 'W', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr', 'S'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'S'}
+>> E, W
+tehais=['4m', 'C', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr', 'S'], ev={'type': 'dahai', 'actor': 3, 'pai': '5pr', 'tsumogiri': True}
+>> E, W
+tehais=['4m', 'C', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr', 'S', '3p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3p'}
+tehais=['4m', 'C', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr', 'S'], ev={'type': 'dahai', 'actor': 3, 'pai': '5p', 'tsumogiri': True}
+tehais=['4m', 'C', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr', 'S', 'F'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'F'}
+>> E, W
+tehais=['4m', 'C', 'C', 'C', '9p', '9p', '7p', 'S', '6p', '3m', '8p', '5mr', 'S', 'F'], ev={'type': 'end_kyoku'}
+>> @ 0, 3, -3, S
+tehais=['9s', '9p', '6m', '3m', '8p', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2p'}
+>> E, S
+tehais=['9s', '9p', '6m', '3m', '8p', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+>> E, S
+tehais=['9s', '9p', '6m', '8p', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s', '4m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4m'}
+>> E, S
+tehais=['9s', '9p', '6m', '8p', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s'], ev={'type': 'dahai', 'actor': 3, 'pai': '6s', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '6m', '8p', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s', 'P'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'P'}
+>> E, S
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s', 'P', '4m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4m'}
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s', 'P', '2p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2p'}
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s', 'P'], ev={'type': 'dahai', 'actor': 3, 'pai': '6s', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', '2s', 'P', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> E, S
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '4s', '7m', '9s', 'P', 'W', '6m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6m'}
+>> E, S
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '7m', '9s', 'P', 'W', '6m', '5s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5s'}
+>> E, S
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '7m', '9s', 'P', 'W', '6m'], ev={'type': 'dahai', 'actor': 3, 'pai': '9s', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '6m', '8s', '7s', '8p', 'W', '6s', '7m', '9s', 'P', 'W', '6m', 'P'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'P'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '6s', '7m', '9s', 'P', 'W', '6m', 'P'], ev={'type': 'dahai', 'actor': 1, 'pai': 'P', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '6s', '7m', '9s', 'P', 'W', '6m', 'P', '7s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7s'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '6s', '7m', '9s', 'P', 'W', 'P', '7s', '7p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7p'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '7m', '9s', 'P', 'W', 'P', '7s', '7p'], ev={'type': 'dahai', 'actor': 3, 'pai': '6p', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '7m', '9s', 'P', 'W', 'P', '7s', '7p', '6p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6p'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '7m', '9s', 'P', 'W', 'P', '7s', '7p', '7p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7p'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p', '6s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6s'}
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p'], ev={'type': 'dahai', 'actor': 1, 'pai': '7p', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p'], ev={'type': 'dahai', 'actor': 3, 'pai': 'W', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', '8p', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p', '9p'], ev={'type': 'dahai', 'actor': 2, 'pai': '7s', 'tsumogiri': True}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p', '9p', '9m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9m'}
+>> E, S
+tehais=['9s', '9p', '8s', '7s', 'W', '9s', 'P', 'W', 'P', '7s', '7p', '7p', '9p', '9m'], ev={'type': 'end_kyoku'}
+>> @ 0, 4, -4, E
+tehais=['6s', 'C', 'F', 'W', '6p', '7s', '4m', 'P', '9p', '3s', '4s', '2p', '9p', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+>> S, E
+tehais=['6s', 'C', 'F', 'W', '6p', '7s', '4m', 'P', '9p', '3s', '4s', '9p', '3s', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+>> S, E
+tehais=['6s', 'C', 'F', 'W', '6p', '7s', '4m', 'P', '9p', '4s', '9p', '3s', '8s', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+>> S, E
+tehais=['6s', 'C', 'F', 'W', '6p', '7s', 'P', '9p', '4s', '9p', '3s', '8s', '2s', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+>> S, E
+tehais=['6s', 'F', 'W', '6p', '7s', 'P', '9p', '4s', '9p', '3s', '8s', '2s', '4p'], ev={'type': 'dahai', 'actor': 3, 'pai': '9s', 'tsumogiri': True}
+>> S, E
+tehais=['6s', 'F', 'W', '6p', '7s', 'P', '9p', '4s', '9p', '3s', '8s', '2s', '4p', '7p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7p'}
+>> S, E
+tehais=['6s', 'F', 'W', '6p', '7s', 'P', '9p', '4s', '9p', '3s', '8s', '2s', '7p', '4s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4s'}
+>> S, E
+tehais=['6s', 'F', 'W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s'], ev={'type': 'dahai', 'actor': 3, 'pai': '1s', 'tsumogiri': True}
+>> S, E
+tehais=['6s', 'F', 'W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'N'}
+>> S, E
+tehais=['6s', 'W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6m'}
+>> S, E
+tehais=['6s', 'W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N'], ev={'type': 'dahai', 'actor': 3, 'pai': '8p', 'tsumogiri': True}
+>> S, E
+tehais=['6s', 'W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+tehais=['6s', 'W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6s'}
+>> S, E
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s', 'F'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'F'}
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s', '3p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3p'}
+>> S, E
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s'], ev={'type': 'dahai', 'actor': 3, 'pai': '9s', 'tsumogiri': True}
+>> S, E
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s', '5m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5m'}
+>> S, E
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s'], ev={'type': 'dahai', 'actor': 3, 'pai': '4s', 'tsumogiri': True}
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', 'N', '6s', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, E
+tehais=['W', '6p', '7s', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', '6s', 'W', '7s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7s'}
+>> S, E
+tehais=['W', '6p', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', '6s', 'W', '7s', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+tehais=['W', '6p', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', '6s', 'W', '7s'], ev={'type': 'dahai', 'actor': 3, 'pai': '6s', 'tsumogiri': True}
+tehais=['W', '6p', 'P', '9p', '9p', '3s', '8s', '2s', '7p', '4s', '6s', 'W', '7s', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> S, E
+tehais=['W', '6p', '9p', '9p', '3s', '8s', '2s', '7p', '4s', '6s', 'W', '7s', '9p', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, E
+tehais=['W', '6p', '9p', '9p', '3s', '8s', '2s', '7p', '4s', '6s', 'W', '7s', '9p', 'W'], ev={'type': 'end_kyoku'}
+>> @ 0, 4, -4, E
+tehais=['N', '4m', '1s', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '2m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2m'}
+>> S, E
+tehais=['N', '4m', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '2m', '9s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9s'}
+>> S, E
+tehais=['N', '4m', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+>> S, E
+tehais=['N', '4m', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+>> S, E
+tehais=['N', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '3m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3m'}
+>> S, E
+tehais=['N', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p'], ev={'type': 'dahai', 'actor': 2, 'pai': '4p', 'tsumogiri': True}
+>> S, E
+tehais=['N', '5s', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8m'}
+>> S, E
+tehais=['N', '8m', '9p', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'E'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'E'}
+>> S, E
+tehais=['N', '8m', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'E', '2m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2m'}
+tehais=['N', '8m', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'E'], ev={'type': 'dahai', 'actor': 2, 'pai': 'F', 'tsumogiri': True}
+>> S, E
+tehais=['N', '8m', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'E', '3p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3p'}
+>> S, E
+tehais=['N', '8m', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'E', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, E
+tehais=['N', '8m', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8m'}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'dahai', 'actor': 3, 'pai': '8m', 'tsumogiri': True}
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'dahai', 'actor': 1, 'pai': '4p', 'tsumogiri': True}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', 'C'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'C'}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'dahai', 'actor': 3, 'pai': '7p', 'tsumogiri': True}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', 'S'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'S'}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'dahai', 'actor': 1, 'pai': '9s', 'tsumogiri': True}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', 'S'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'S'}
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'dahai', 'actor': 3, 'pai': 'F', 'tsumogiri': True}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', '6s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6s'}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m'], ev={'type': 'dahai', 'actor': 3, 'pai': 'N', 'tsumogiri': True}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', '4s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4s'}
+>> S, E
+tehais=['N', '7p', '7p', 'F', '9s', '4p', 'N', 'F', '9s', '4p', '8m', 'W', '8m', '4s'], ev={'type': 'end_kyoku'}
+>> @ 0, 4, -4, E
+tehais=['4m', '8p', '9m', '7s', '7s', '4p', '5p', '8p', '1p', '7p', 'F', 'C', '7m', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '4p', '5p', '8p', '1p', '7p', 'F', 'C', '7m', '1p', '5s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5s'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', 'C', '7m', '1p', '5s', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', 'C', '7m', '1p', '1p', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', 'C', '7m', '1p', '1p', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', 'C', '7m', '1p', '1p', 'E'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'E'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E'], ev={'type': 'dahai', 'actor': 3, 'pai': '9p', 'tsumogiri': True}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E', '3p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3p'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E'], ev={'type': 'dahai', 'actor': 2, 'pai': '8p', 'tsumogiri': True}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E'], ev={'type': 'dahai', 'actor': 3, 'pai': '9p', 'tsumogiri': True}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E', '2m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2m'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '1p', '7p', 'F', '7m', '1p', '1p', 'E', '7m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7m'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '7p', 'F', '7m', '1p', '1p', 'E', '7m'], ev={'type': 'dahai', 'actor': 3, 'pai': '8m', 'tsumogiri': True}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '5p', '8p', '7p', 'F', '7m', '1p', '1p', 'E', '7m', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '8p', '7p', 'F', '7m', '1p', '1p', 'E', '7m', 'W', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', '1p', 'E', '7m', 'W', '8s', '1s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1s'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', '1p', 'E', '7m', 'W', '8s', '6m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6m'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', '1p', 'E', '7m', 'W', '8s', '8m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8m'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', '1p', 'E', '7m', 'W', '8s', '4m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4m'}
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', '1p', 'E', '7m', 'W', '8s', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', 'E', '7m', 'W', '8s', '1p', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+>> S, E
+tehais=['8p', '9m', '7s', '7s', '8p', 'F', '7m', '1p', 'E', '7m', 'W', '8s', '1p', '8s'], ev={'type': 'end_kyoku'}
+>> @ 0, 5, -5, N
+tehais=['F', '4p', 'S', '7p', 'E', '7p', '8m', '5pr', '1p', 'E', '9p', '4m', '2p'], ev={'type': 'dahai', 'actor': 3, 'pai': '7p', 'tsumogiri': True}
+>> S, N
+tehais=['F', '4p', 'S', '7p', 'E', '7p', '8m', '5pr', '1p', 'E', '9p', '4m', '2p', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> S, N
+tehais=['F', '4p', 'S', '7p', 'E', '7p', '8m', '5pr', 'E', '9p', '4m', '2p', '9p', 'E'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'E'}
+>> S, N
+tehais=['F', '4p', 'S', '7p', 'E', '7p', '8m', '5pr', 'E', '9p', '4m', '9p', 'E', '2m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2m'}
+>> S, N
+tehais=['F', '4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '4m', '9p', 'E', '2m', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, N
+tehais=['4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '4m', '9p', 'E', '2m', 'W'], ev={'type': 'dahai', 'actor': 3, 'pai': 'E', 'tsumogiri': True}
+>> S, N
+tehais=['4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '4m', '9p', 'E', '2m', 'W', 'S'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'S'}
+>> S, N
+tehais=['4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '4m', '9p', 'E', 'W', 'S', '1s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1s'}
+>> S, N
+tehais=['4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '4m', '9p', 'E', 'W', 'S'], ev={'type': 'dahai', 'actor': 3, 'pai': '6p', 'tsumogiri': True}
+>> S, N
+tehais=['4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '4m', '9p', 'E', 'W', 'S', 'F'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'F'}
+tehais=['4p', 'S', '7p', 'E', '7p', '5pr', 'E', '9p', '9p', 'E', 'W', 'S', 'F', '5mr'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5mr'}
+>> S, N
+tehais=['S', '7p', 'E', '7p', '5pr', 'E', '9p', '9p', 'E', 'W', 'S', 'F', '5mr', 'N'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'N'}
+>> S, N
+tehais=['S', '7p', 'E', '7p', '5pr', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9s'}
+>> S, N
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '8m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8m'}
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+>> S, N
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '8m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8m'}
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s'], ev={'type': 'dahai', 'actor': 1, 'pai': '7p', 'tsumogiri': True}
+>> S, N
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+>> S, N
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '2s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2s'}
+>> S, N
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s'], ev={'type': 'dahai', 'actor': 3, 'pai': 'S', 'tsumogiri': True}
+>> S, N
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '1s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1s'}
+tehais=['S', '7p', 'E', '7p', 'E', '9p', '9p', 'E', 'W', 'S', 'F', 'N', '9s', '1s'], ev={'type': 'end_kyoku'}
+>> @ 0, 6, -6, W
+tehais=['1p', '7s', '6p', '2s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7m'}
+>> S, W
+tehais=['7s', '6p', '2s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5s'}
+>> S, W
+tehais=['7s', '6p', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s', 'F'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'F'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s', 'F', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s', 'F'], ev={'type': 'dahai', 'actor': 3, 'pai': '6s', 'tsumogiri': True}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s', 'F', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s', 'F', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', 'C', '6m', 'E', '8s', '1m', '7m', '5s', 'F', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', 'E', '8s', '1m', '7m', '5s', 'F', 'W'], ev={'type': 'dahai', 'actor': 3, 'pai': '9s', 'tsumogiri': True}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', 'E', '8s', '1m', '7m', '5s', 'F', 'W', '6s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6s'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', '8s', '1m', '7m', '5s', 'F', 'W', '6s', '1s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1s'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', '8s', '1m', '7m', '5s', 'F', 'W', '6s', '4m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4m'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', '8s', '7m', '5s', 'F', 'W', '6s', '4m', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+>> S, W
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', '8s', '7m', '5s', 'F', 'W', '6s', '4m', '3s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3s'}
+tehais=['7s', '5m', 'S', '5s', '2m', '6m', '8s', '7m', '5s', 'F', 'W', '6s', '4m', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+>> S, W
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'F', 'W', '6s', '4m', '8s'], ev={'type': 'dahai', 'actor': 3, 'pai': '7m', 'tsumogiri': True}
+>> S, W
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'F', 'W', '6s', '4m', '8s', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'F', 'W', '6s', '4m', '8s', '3m'], ev={'type': 'tsumo', 'actor': 0, 'pai': '3m'}
+>> S, W
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'W', '6s', '4m', '8s', '3m', '1s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1s'}
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'W', '6s', '4m', '8s', '3m'], ev={'type': 'dahai', 'actor': 3, 'pai': '5m', 'tsumogiri': True}
+>> S, W
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'W', '6s', '4m', '8s', '3m', 'W'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'W'}
+>> S, W
+tehais=['7s', '5m', 'S', '2m', '6m', '8s', '7m', '5s', 'W', '6s', '4m', '8s', '3m', 'W'], ev={'type': 'end_kyoku'}
+>> @ 0, 7, -7, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '1m', '2m', '4p', '8m', '8m', 'F', '2s', '5m', 'C'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'C'}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '2m', '4p', '8m', '8m', 'F', '2s', '5m', 'C', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '2m', '4p', '8m', '8m', 'F', '2s', '5m', 'C', '6p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6p'}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '4p', '8m', '8m', 'F', '2s', '5m', 'C', '6p'], ev={'type': 'dahai', 'actor': 3, 'pai': '8m', 'tsumogiri': True}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '4p', '8m', '8m', 'F', '2s', '5m', 'C', '6p', '6p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '6p'}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '8m', '8m', 'F', '2s', '5m', 'C', '6p', '6p', '9p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '9p'}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p'], ev={'type': 'dahai', 'actor': 3, 'pai': '2s', 'tsumogiri': True}
+>> S, S
+tehais=['2s', 'W', '5sr', '9m', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '1p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1p'}
+tehais=['2s', 'W', '5sr', '9m', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+>> S, S
+tehais=['2s', 'W', '9m', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', '2p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2p'}
+>> S, S
+tehais=['2s', 'W', '9m', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F'], ev={'type': 'tsumo', 'actor': 0, 'pai': 'F'}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F'], ev={'type': 'dahai', 'actor': 2, 'pai': '6p', 'tsumogiri': True}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F'], ev={'type': 'dahai', 'actor': 3, 'pai': '2s', 'tsumogiri': True}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '1s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '1s'}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '2p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '2p'}
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F'], ev={'type': 'dahai', 'actor': 3, 'pai': '8m', 'tsumogiri': True}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '8s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8s'}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '7s'], ev={'type': 'tsumo', 'actor': 0, 'pai': '7s'}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F'], ev={'type': 'dahai', 'actor': 2, 'pai': '6p', 'tsumogiri': True}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '5p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5p'}
+>> S, S
+tehais=['2s', 'W', '8p', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '8p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '8p'}
+>> S, S
+tehais=['2s', 'W', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '8p', '5pr'], ev={'type': 'tsumo', 'actor': 0, 'pai': '5pr'}
+>> S, S
+tehais=['2s', 'W', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '8p', '4p'], ev={'type': 'tsumo', 'actor': 0, 'pai': '4p'}
+tehais=['2s', 'W', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '8p', '4p'], ev={'type': 'end_kyoku'}
+tehais=['2s', 'W', '8m', '8m', 'F', '2s', 'C', '6p', '6p', '9p', '8p', 'F', '8p', '4p'], ev={'type': 'end_game'}
