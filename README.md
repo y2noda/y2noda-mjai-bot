@@ -65,6 +65,40 @@ uv run python scripts/create_submission.py
 このスクリプトは、大会提出用のZIPファイル（`submission.zip`）を作成します。ZIPファイルには以下のファイルが含まれます：
 - `bot.py`: メインのボットの実装
 
+#### 対話型シェルでデバッグする
+
+自動でボットを実行するには、以下のコマンドを実行します。
+```bash
+./run_bot.sh
+```
+
+対話的に実行するには、以下のコマンドを実行します。
+```bash
+./run_bot.sh -i
+```
+
+ゲームをスタートするには、
+```bash
+[{"type":"start_game","id":0}]
+```
+というメッセージを送信します。
+
+局を進めるには、
+```bash
+[{"type":"start_kyoku","bakaze":"E","dora_marker":"2s","kyoku":1,"honba":0,"kyotaku":0,"oya":0,"scores":[25000,25000,25000,25000],"tehais":[["E","6p","9m","8m","C","2s","7m","S","6m","1m","S","3s","8m"],["?","?","?","?","?","?","?","?","?","?","?","?","?"],["?","?","?","?","?","?","?","?","?","?","?","?","?"],["?","?","?","?","?","?","?","?","?","?","?","?","?"]]},{"type":"tsumo","actor":0,"pai":"1m"}]
+```
+のようなメッセージを送信します。
+
+
+
+
+
+
+
+
+
+このスクリプトは、対話型シェルでデバッグするためのものです。
+
 ## プロジェクト構造
 
 ```
@@ -76,6 +110,51 @@ uv run python scripts/create_submission.py
 ├── examples/       # 使用例
 ├── logs/           # ログファイル
 └── terraform/      # インフラストラクチャコード
+```
+
+### srcの詳細
+
+srcディレクトリの中身は以下のようになっています。
+
+```
+.
+├── src/
+│   ├── __init__.py
+│   ├── bot.py              # MahjongAIBotクラス (Mjaiとのインターフェース)
+│   ├── engine/
+│   │   ├── __init__.py
+│   │   ├── thinking_engine.py  # ThinkingEngineクラス (戦略の選択と実行)
+│   │   └── interfaces.py     # IThinkingStrategyのような戦略インターフェース定義 (任意)
+│   ├── strategies/         # 各思考戦略の実装
+│   │   ├── __init__.py
+│   │   ├── base_strategy.py  # 戦略の基底クラスや共通インターフェース
+│   │   ├── rule_based/       # ルールベース戦略関連
+│   │   │   ├── __init__.py
+│   │   │   └── rule_based_strategy.py
+│   │   ├── ml_based/         # (将来用) MLベース戦略関連
+│   │   │   ├── __init__.py
+│   │   │   └── ml_strategy.py
+│   │   └── common/           # 戦略間で共通のロジック (例: 評価関数、探索アルゴリズム)
+│   │       ├── __init__.py
+│   │       └── evaluation.py
+│   ├── domain/             # 麻雀のドメインモデル (DDD)
+│   │   ├── __init__.py
+│   │   ├── tile.py           # 牌 (Tile)
+│   │   ├── hand.py           # 手牌 (Hand)
+│   │   ├── meld.py           # 面子 (Meld)
+│   │   ├── game_state.py     # ゲーム状態 (GameState: 場況、局、点数など)
+│   │   ├── action.py         # 行動 (Action: 打牌、ポン、チーなど)
+│   │   └── yaku.py           # 役 (Yaku)
+│   ├── utils/              # 汎用ユーティリティ
+│   │   ├── __init__.py
+│   │   └── shanten.py        # 向聴数計算など
+│   └── main.py             # (任意) スクリプト実行のエントリーポイント (bot.py内でも可)
+└── tests/                  # テストコード
+    ├── strategies/
+    │   └── test_rule_based_strategy.py
+    ├── domain/
+    │   └── test_hand.py
+    └── ...
 ```
 
 ## ライセンス

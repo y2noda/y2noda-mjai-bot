@@ -29,7 +29,7 @@ exclude = [
 ]
 
 # Same as Black.
-line-length = 88
+line-length = 120
 indent-width = 4
 
 # Assume Python 3.12
@@ -55,6 +55,14 @@ ignore = [
     "Q002",
     "Q003",
     "W191",
+    "D400",
+    "D415",
+    "TD002",
+    "BLE001",
+    "PLR0911",
+    "TD003",
+    "ERA001",
+    "FIX002",
 ]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.

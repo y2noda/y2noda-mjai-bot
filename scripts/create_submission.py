@@ -1,24 +1,28 @@
 #!/usr/bin/env python3
-import os
 import shutil
 import zipfile
+from pathlib import Path
 
 
-def create_submission_zip():
+def create_submission_zip() -> None:
+    """提出用のzipファイルを作成します。"""
     # 一時ディレクトリの作成
-    tmp_dir = "tmp_submission"
-    os.makedirs(tmp_dir, exist_ok=True)
+    tmp_dir = Path("tmp_submission")
+    if tmp_dir.exists():
+        shutil.rmtree(tmp_dir)
+    tmp_dir.mkdir(parents=True)
 
-    # 必要なファイルをコピー
-    shutil.copy("src/bot.py", os.path.join(tmp_dir, "bot.py"))
+    # srcディレクトリの中身全体を一時ディレクトリにコピー
+    src_dir = Path("src")
+    shutil.copytree(src_dir, tmp_dir / src_dir.name)
 
     # zipファイルの作成
-    with zipfile.ZipFile("submission.zip", "w", zipfile.ZIP_DEFLATED) as zf:
-        for root, _, files in os.walk(tmp_dir):
-            for file in files:
-                file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, tmp_dir)
-                zf.write(file_path, arcname)
+    zip_filename = "submission.zip"
+    with zipfile.ZipFile(zip_filename, "w", zipfile.ZIP_DEFLATED) as zf:
+        for item in tmp_dir.rglob("*"):
+            if item.is_file():
+                arcname = item.relative_to(tmp_dir)
+                zf.write(item, arcname)
 
     # 一時ディレクトリの削除
     shutil.rmtree(tmp_dir)
