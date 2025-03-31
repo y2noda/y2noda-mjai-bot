@@ -2,11 +2,11 @@ from typing import TYPE_CHECKING
 
 from loguru import logger
 
-from strategies.rule_based.rule_based_strategy import RuleBasedStrategy
+from strategies import RuleBasedStrategy
 
 if TYPE_CHECKING:
-    from src.bot import MahjongAIBot
-    from strategies.base_strategy import BaseStrategy
+    from bot import MahjongAIBot
+    from strategies import BaseStrategy
 
 
 class ThinkingEngine:
@@ -35,8 +35,12 @@ class ThinkingEngine:
             logger.error(f"戦略の実行中にエラーが発生しました: {e}", exc_info=True)
             logger.warning("戦略実行エラーのため、フォールバックアクションを試みます。")
             if bot.can_discard:
-                fallback_action = bot.action_discard(bot.tehai[-1])
-                logger.warning(f"フォールバックアクション: {fallback_action}")
+                if not bot.tehai_mjai:
+                    logger.error("戦略エラーのフォールバック: 手牌が空のため打牌できません。")
+                    fallback_action = bot.action_nothing()
+                else:
+                    fallback_action = bot.action_discard(bot.tehai_mjai[-1])
+                    logger.warning(f"フォールバックアクション: {fallback_action}")
                 return fallback_action
             logger.error("打牌可能な状況ではないため、フォールバックアクションを実行できません。")
             return bot.action_nothing()

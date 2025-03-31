@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from src.bot import MahjongAIBot  # 絶対インポートを使用
+    from bot import MahjongAIBot
 
 
 class BaseStrategy(ABC):

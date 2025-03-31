@@ -1,4 +1,4 @@
-"""ルールベースの麻雀AI戦略。"""  # パッケージdocstringを追加
+"""麻雀AIのルールベース戦略を定義するモジュール。"""
 
 from .rule_based_strategy import RuleBasedStrategy
 
